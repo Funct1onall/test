@@ -1,0 +1,5 @@
+for x in "banana":
+  firstname = input("Enter the firstname, please: ")
+  lastname = input("Enter the lastname: ")
+  strings = " {} {} "
+  print(strings.format(firstname, lastname))
